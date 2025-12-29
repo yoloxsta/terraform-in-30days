@@ -12,7 +12,6 @@ resource "aws_s3_bucket" "example_b" {
 output "bucket_a_name" {
   value = aws_s3_bucket.example_a.bucket
 }
-
 output "bucket_b_name" {
   value = aws_s3_bucket.example_b.bucket
 }
